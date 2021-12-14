@@ -237,7 +237,6 @@ app.post('/add', (req, res) => {
 	    res.write("</div>");
 	    res.write("<footer>&copy; 2021 Rêve au Chocolat – 23 Fausse Street, Cambridge, MA – (617) 555 0113</footer>")
 	    res.end();
-	    db.close();
     })
 })
 
